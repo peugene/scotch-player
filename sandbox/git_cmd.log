@@ -1,0 +1,7 @@
+git remote -v : liste les repo remote
+git remote rm origin : supprime le lien vers le remote origin
+git remote add origin https://github.com/peugene/scotch-player : ajoute mon repo perso comme remote
+git branch --set-upstream-to=origin/master master : link le repo et le repo distant
+git pull --rebase
+git push
+
