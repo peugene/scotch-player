@@ -1,14 +1,14 @@
 {
-  "name": "electron-quick-start",
+  "name": "scotch-player",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "An Electron/React.js tutorial from : https://scotch.io/tutorials/build-a-music-player-with-react-electron-i-setup-basic-concepts",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/electron/electron-quick-start.git"
+    "url": "git+https://github.com/peugene/scotch-player"
   },
   "keywords": [
     "Electron",
@@ -19,9 +19,9 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "bugs": {
-    "url": "https://github.com/electron/electron-quick-start/issues"
+    "url": "https://github.com/peugene/scotch-player/issues"
   },
-  "homepage": "https://github.com/electron/electron-quick-start#readme",
+  "homepage": "https://github.com/peugene/scotch-player#readme",
   "devDependencies": {
     "electron": "^1.3.4"
   }
