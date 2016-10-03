@@ -9,8 +9,9 @@ class Search extends React.Component {
     // render method returns JSX template
     render() {
         return (
-            <form>
-                <input type="text" />
+            <form onSubmit={this.props.handleSubmit}>
+            {/* Notice how values and callback are passed using props */}
+                <input type="text" value={this.props.searchValue} onChange={this.props.handleChange}/>
                 <input type="submit" />
             </form>
         );
